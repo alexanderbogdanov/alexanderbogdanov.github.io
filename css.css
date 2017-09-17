@@ -1,0 +1,68 @@
+html {
+	background: green;
+	overflow: hidden;
+}
+
+body {
+	width: 960px;
+	padding: 10px 30px;
+	background: black;
+	margin: 0 auto;
+	margin-top: 20px;
+	overflow: hidden;
+	
+}
+
+input {
+	border-radius: 7px;
+	box-shadow: inset 2px 1px 1px rgba(0,0,0,.3);
+}
+
+/*input[type="radio"] {
+	display: block;
+}*/
+
+input[type="checkbox"] {
+	
+}
+
+article {
+	background: #FFF;
+	padding: 1%;
+	float: left;
+/*	margin-right: 5%;
+*/	width: 60%;
+	border-radius: 10px;
+}
+
+aside {
+	background: teal;
+	padding: 1%;
+	float: right;
+	width: 33%;
+	border-radius: 10px;
+}
+
+fieldset {
+	margin-top: 10px;
+	border-radius: 10px;
+	-webkit-margin-start: 2em;
+	-webkit-padding-start: 1em;
+    -webkit-padding-before: 0;
+	-webkit-padding-after: 1em;
+}
+aside {
+	color: white;
+}
+
+input[type="submit"] {
+	color: teal;
+}
+
+iframe {
+	margin: 10px;
+	padding: 10px;
+	background: grey;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+}
