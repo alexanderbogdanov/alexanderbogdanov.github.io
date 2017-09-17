@@ -1,84 +1,136 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<link rel="stylesheet" href="css.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Creating a Responsive Web Design</title>
+	<link rel="stylesheet" type="text/css" href="css/screen.css">
 </head>
 <body>
-	<section class="main_content">
-		<article>
-		<form action="index_submit" method="get" accept-charset="utf-8">
-			<p>Имя пользователя <input type="text" placeholder="type your name" name="usermame"></p>
-			<p>Password <input type="password" name="pass" required="required"></p>
-			<p><input type="submit" value="send"></p>
-			<p> And the tell us what you think</p>
-			<textarea name="comments" rows="3" cols="20">Enter your comments</textarea>
-			<p>enter what music you like</p>
-			<input type="radio" name="janre" checked="checked">rock
-			<input type="radio" name="janre">pop
-			<input type="radio" name="janre">jazz
-			<br>
-			<br>
-			<p>Please select your favourite music servics</p>
-			<input type="checkbox" name="service" value="itunes" checked="checked"> itunes
-			<input type="checkbox" name="service" value="lastfm"> lastfm
-			<input type="checkbox" name="service" value="spotify"> spotify 
-		</form>
-		</article>
-		<aside>
-			<form action="index_submit" method="get" accept-charset="utf-8">
-				<p>What device do you listen to music on?</p>
-				<select name="devices" multiple>
-					<option value="ipod">IPod</option>
-					<option value="radio">Radio</option>}
-					<option value="computer" selected="selected">comp</option>}
-				</select>
-			<p>Upload your song</p>
-			<input type="file" name="song"><br>
-			<input type="submit" value="upload">
-			<br>
-			<label>age:<input type="text" maxlength="3" size="1" name="age" value=""></label><br>
-			<input type="radio" name="gender" id="female" value="f">
-			<label for="female">Female</label>
-			<input type="radio" name="gender" id="male" checked="checked" value="m">
-			<label for="male">Male</label>
-			</form>
-			
-			<form><fieldset>
-							<legend>Contact details</legend>
-							<label>Email<br>
-							<input type="email" name="email"></label><input type="submit" value="submit"><br>
-							<label>Mobile<br>
-							<input type="text" name="mobil"></label><br>
-							<label>Telephone<br>
-							<input type="text" name="phone"></label><br>
-						</fieldset></form>
 
-		<form action="index_submit" method="get" accept-charset="utf-8">
-			<p>Please enter your website address</p>
-			<input type="url" name="url">
-			<input type="submit" name="submit">
-		</form>
+	<main>
+		<header id="header" class="">
+			<a href="http://codifydesign.com" class="logo" title="Everyday Things"><span>Everyday Things</span></a>
+			<!-- begin hero -->
+			<div class="hero">
+				<h1>Add interest with natural textures</h1>
+				<a class="btn" title="Get advice from top designers" href="#">Get advice from top designers</a>
+			</div>
+			<!-- end hero -->
+		</header><!-- /header -->
 
-		<form method="get" action="http://www.google.com/search">
-			<input type="text"   name="q" size="31"
-			maxlength="255" value="">
-			<input type="submit" value="Google Search">
+		<section class="main">
+			<aside>
+				<!-- begin  content-->
+				<div class="content trending">
+					<h3><a href="#">What&apos;s trending</a></h3>
+					<p>Lorem ipsum dolor sit amet, consect etuer adipiscing elit. <a href="http://codifydesign.com">Morbi commodo</a>, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis.</p>
+				</div>
+				<!-- end  content-->
+			</aside>
+
+			<aside>
+				<!-- begin  content-->
+				<div class="content find-it">
+					<h3><a href="#">Where to find it</a></h3>
+					<p>Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Lorem ipsum dolor sit amet, consect.</p>
+				</div>
+				<!-- end  content-->
+			</aside>
+
+
+			<aside>
+				<!-- begin  content-->
+				<div class="content tools">
+					<h3><a href="#">Tools of the trade</a></h3>
+					<p>Nullam sit amet enim. Lorem ipsum dolor sit amet, consect etuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci rhoncus neque, id pulvinar odio.</p>
+				</div>
+				<!-- end  content-->
+			</aside>
+
+
+		</section>
+		
+		<section class="atmosphere">
+			<article>
+				<h2>Creating a modern atmosphere</h2>
+				<p>Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Lorem ipsum dolor sit amet etuer adipiscing elit.  Pulvinar odio lorem non turpis. Nullam sit amet enim lorem.</p>
+				<a href="#" title="Creating a modern atmosphere" class="btn">Learn more</a>
+			</article>
+		</section>
+
+		<section class="how-to">
+			<aside>
+				<!-- begin content -->
+				<div class="content">
+					<img src="images/photo_seating.jpg" alt="Choosing the proper seating">
+					<h4>How-To: Seating</h4>
+					<p>Consectetuer adipiscing elit. Morbi commodo ipsum sed gravida orci magna rhoncus pulvinar odio lorem.</p>
+					<a title="Learn how to choose the proper seating." href="http://codifydesign.com">Learn more</a>
+				</div>
+				<!-- end  content-->
+			</aside>
+
+			<aside>
+				<!-- begin  content-->
+				<div class="content">
+					<img src="images/photo_lighting.jpg" alt="Choosing the proper lighting">
+					<h4>How-To: Lighting</h4>
+					<p>Morbi commodo, ipsum sed pharetra gravida magna rhoncus neque id pulvinar odio lorem non turpis nullam sit amet.</p>
+					<a title="Learn how to choose the proper lighting." href="http://codifydesign.com">Learn more</a>
+				</div>
+				<!-- end  content-->
+			</aside>
 			
-		</form>
-		</aside>
+			<blockquote cite="http://example.com/facts">
+				<p class="quote">Lorem ipsum dolor sit amet conse ctetuer adipiscing elit. Morbi comod sed dolor sit amet consect adipiscing elit.</p>
+				<p class="credit"><strong>Author Name</strong><br> <em>Business Title</em> <br> Company</p>
+			</blockquote>
+
+		</section>
+
+		<nav>
+			<ul>
+				<li><a href="#" title="About Us">About Us</a></li>
+				<li><a href="#" aria-haspopup="true" title="Design Corner">Design Corner</a>
+					<ul>
+						<li><a href="#" title="Sub Link 1">Sub Link 1</a></li>
+						<li><a href="#" title="Sub Link 2">Sub Link 2</a></li>
+						<li><a href="#" title="Sub Link 3">Sub Link 3</a></li>
+					</ul>
+				</li>
+				<li><a href="#" aria-haspopup="true" title="Products">Products</a>
+					<ul>
+						<li><a href="#" title="Sub Link 1">Sub Link 1</a></li>
+						<li><a href="#" title="Sub Link 2">Sub Link 2</a></li>
+						<li><a href="#" aria-haspopup="true" title="Sub Link 3">Sub Link 3</a>
+							<ul>
+								<li><a href="#" title="Sub Sub Link 1">Sub Sub Link 1</a></li>
+								<li><a href="#" title="Sub Sub Link 2">Sub Sub Link 2</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="#" title="Contact Us">Contact Us</a></li>
+			</ul>
+		</nav>
+
+
 		<footer>
-			<iframe
-				width="450"
-				height="350"
-				src="http://maps.google.co.uk/maps?q=moma+new+york&amp;output=embed">
-				</iframe>
-				<iframe seamless sandbox="allow-same-origin"
-        srcdoc="<p>Yeah, you can see it <a href="/gallery?mode=cover&amp;page=1">in my gallery</a>.">
-</iframe> 
+			&copy; Everyday Things
+			<!-- begin content -->
+			<div class="content">
+				<a href="#" title="Privacy Policy">Privacy Policy</a>
+				<a href="#" title="Terms of Service">Terms of Service</a>
+			</div>
+			<!-- end content -->
+
+
 		</footer>
-	</section>
+
+	</main>
+
+	
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>
